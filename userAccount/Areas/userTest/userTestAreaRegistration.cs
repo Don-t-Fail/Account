@@ -20,6 +20,7 @@ namespace userAccount.Areas.userTest
                 "userTest/{controller}/{action}/{id}",
                 new { action = "Index", id = UrlParameter.Optional }
             );
+
         }
     }
 }
